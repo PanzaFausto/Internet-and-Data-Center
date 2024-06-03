@@ -12,5 +12,3 @@ ROOT-SERVER.	IN	A	3.3.0.2
 
 it.		    IN 	NS	dnsit.it.
 dnsit.it.	    IN 	A	1.1.0.2
-
-#Tutti gli altri eventuali dns
