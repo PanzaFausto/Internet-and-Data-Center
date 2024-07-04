@@ -1,0 +1,12 @@
+options {
+    directory "/var/cache/bind";
+    allow-recursion { 20.0/16; };
+    dnssec-validation no;
+};
+
+include "/etc/bind/named.conf.options";
+
+zone "." {
+   type hint;
+   file "/etc/bind/db.root";
+}
