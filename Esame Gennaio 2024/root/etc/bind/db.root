@@ -10,5 +10,5 @@ $TTL   60000
 @               IN      NS      ROOT-SERVER.
 ROOT-SERVER.	IN	A	3.3.0.2
 
-it.		    IN 	NS	dnsit.it.
-dnsit.it.	    IN 	A	1.1.0.2
+uniroma3		    IN 	NS	dnsuniroma3.it.
+dnsuniroma3.it.	    IN 	A	1.1.0.2
